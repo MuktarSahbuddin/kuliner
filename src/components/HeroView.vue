@@ -1,0 +1,54 @@
+<template>
+  <div class="hero">
+    <!-- Dekstop -->
+    <div class="d-none d-sm-block">
+      <div class="row mt-4">
+        <div class="col-md-6 mb-5">
+          <div class="d-flex h-100">
+            <div class="justify-content-center align-self-center">
+              <h2>
+                <strong>Delicious Food Menu,</strong> <br />
+                In your gadget
+              </h2>
+              <p>Ayo segera pesan dan pilih apa yang kamu inginkan</p>
+              <button class="btn btn-lg btn-success">
+                <b-icon-arrow-right></b-icon-arrow-right> Pesan
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="../assets/image/hero3.png" alt="" width="100%" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile -->
+    <div class="d-sm-block d-md-none">
+      <div class="row mt-4">
+        <div class="col-md-6 mb-3">
+          <img src="../assets/image/hero3.png" alt="" width="100%" />
+        </div>
+        <div class="col-md-6 mb-5">
+          <div class="d-flex h-100">
+            <div class="justify-content-center align-self-center">
+              <h2>
+                <strong>Delicious Food Menu,</strong> <br />
+                In your gadget
+              </h2>
+              <p>Ayo segera pesan dan pilih apa yang kamu inginkan</p>
+              <button class="btn btn-lg btn-success">
+                <b-icon-arrow-right></b-icon-arrow-right> Pesan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "HeroView",
+};
+</script>
